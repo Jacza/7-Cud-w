@@ -1,0 +1,34 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #FFFACD;
+}
+h1{
+	font-size: 55px;
+	color: black;
+	font-weight: bold;
+	color: white;
+}
+.a{
+	margin: 0;
+	padding: 0;
+	background: url(Obrazy/Baner1.jpg);
+ 	background-repeat: no-repeat;
+ 	background-position: top center;
+  	width: 100vw;
+ 	height: 100vh;
+  	position: absolute;
+}
+.b{
+	margin-top: 35vh;
+	margin-bottom: auto;
+	width: 500px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+@media (max-width 400px){
+	.b{
+		width: auto;
+	}
+}
